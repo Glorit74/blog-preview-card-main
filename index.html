@@ -27,16 +27,6 @@ tailwind.config = {
       fontFamily: {
         Figtree: ["Figtree", "Arial", "sans-serif"],
       },
-      fontSize: {
-        xs: ["12px", "16px"],
-        sm: ["14px", "20px"],
-        base: ["16px", "19.5px"],
-        lg: ["18px", "21.94px"],
-        xl: ["20px", "24.38px"],
-      },
-      screens: {
-        wide: "1440px",
-      },
 	  boxShadow: {
 		'basicShadow': '8px 8px 0 0 black',
 		'hoverShadow': '16px 16px 0 0 black'
@@ -52,7 +42,7 @@ tailwind.config = {
     <main class="w-80 lg:w-96 p-6 mx-auto bg-white rounded-xl border-solid border border-black shadow-basicShadow hover:shadow-hoverShadow transition-shadow flex flex-col items-center gap-5">
       <figure class="rounded-xl truncate">
         <img
-          src="/assets/images/illustration-article.svg"
+          src="./assets/images/illustration-article.svg"
           alt="drawing that refers to HTML and CSS markup"
         />
       </figure>
@@ -60,7 +50,7 @@ tailwind.config = {
 		<div class="max-w-min px-3 py-1 rounded-md bg-primary text-sm font-bold">Learning</div>
 		<div><span class="text-sm">Published</span> <time>21 Dec 2023</time></div>
 		<h1><a href="#" class="text-2xl font-bold hover:text-primary">HTML & CSS foundations</a></h1>
-		<p>
+		<p class="text-grey">
 		  These languages are the backbone of every website, defining structure,
 		  content, and presentation.
 		</p>
@@ -68,12 +58,11 @@ tailwind.config = {
 		<figure class="self-start flex flex-row gap-2 items-center">
 		  <img
 			class="size-8"
-			src="/assets/images/image-avatar.webp"
+			src="./assets/images/image-avatar.webp"
 			alt="Greg Hooper avatar"
 		  />
 		  <figcaption class="text-sm font-bold">Greg Hooper</figcaption>
 		</figure>
-	 
     </main>
   </body>
 </html>
